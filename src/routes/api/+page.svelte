@@ -5,7 +5,7 @@ The cast.onion API provides access to stations, streaming, applications, and adm
 All routes are prefixed with <code>/v1/</code>.
 </p>
 
-<h2>Session & Connection</h2>
+<h2>Websocket - Session & Connection</h2>
 <ul>
   <li><code>GET /v1/ws</code> — WebSocket connection, returns a session ID</li>
   <li><code>GET /v1/docs</code> — Returns this documentation page</li>
